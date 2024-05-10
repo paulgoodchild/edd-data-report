@@ -1,0 +1,28 @@
+{
+  "name": "paulgoodchild/edd-data-report",
+  "description": "Attempt to extract meaning data from EDD for reporting",
+  "repositories": [
+  ],
+  "authors": [
+    {
+      "name": "Paul Goodchild",
+      "email": "paul@getshieldsecurity.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "nesbot/carbon": "^2.0",
+    "ext-bcmath": "*"
+  },
+  "require-dev": {
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "PaulGoodchild\\EDD\\ReportsData\\": "src/"
+    },
+    "files": [
+    ]
+  }
+}
